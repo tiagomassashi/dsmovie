@@ -6,8 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class DsmoveApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(DsmoveApplication.class, args);
-	}
-
+  public static void main(String[] args) {
+    SpringApplication.run(DsmoveApplication.class, args);
+  }
 }
