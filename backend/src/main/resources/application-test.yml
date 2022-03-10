@@ -14,5 +14,4 @@ spring.h2:
 spring.jpa:
   show-sql: true
   properties: 
-    hibernate:
-      format_sql: true
+    hibernate.format_sql: true

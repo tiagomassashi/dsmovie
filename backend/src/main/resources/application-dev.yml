@@ -1,0 +1,16 @@
+spring.datasource:
+  url: jdbc:postgresql://localhost:5432/dsmovie
+  username: root
+  password: root
+
+spring.jpa:
+  properties:
+    hibernate:
+      jdbc.lob.non_contextual_creation: true
+#      hbm2ddl.delimiter: ;
+#    javax.persistence.schema-generation:
+#      create-source: metadata
+#      scripts:
+#        action: create
+#        create-target: create.sql
+  hibernate.ddl-auto: none
